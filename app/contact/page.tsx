@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Webhook } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Webhook size={20} />,
+		href: "https://xylex.ai",
+		label: "XYLEX.AI",
+		handle: "Financial Infrastructure",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:floris@xylex.ai",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "Get in touch",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/xylex-ai",
 		label: "Github",
-		handle: "chronark",
+		handle: "xylex-ai",
 	},
 ];
 
